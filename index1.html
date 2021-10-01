@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+
+  <head>
+    <meta charset = "utf-8">
+    <link rel="stylesheet" href = "style1.css">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;400&display=swap" rel="stylesheet">
+  </head>
+  <body>
+      <header>
+      <center><div class="logo">
+        <a href = "dz2.html"> <img class="graficlogo" src="logo.png" width="350" height="115" alt="Logo"> </a>
+      <p>Домашнее задание</p>
+      </div></center>
+      <nav>
+          <div class="topnav" id="myTopnav">
+          <a href="https://yandex.ru">ГЛАВНАЯ YANDEX</a>
+          <a href="https://market.yandex.ru">YANDEX MARKET</a> 
+          <a href="https://music.yandex.ru">YANDEX MUSIC</a>
+          <a href="https://translate.yandex.ru">YANDEX TRANSLATE</a> 
+      </div>
+     </nav>
+    </header>
+    <div class="links">
+    <ol>
+          <li><a href="http://example.com"> Абсолютная гиперссылка на главную страницу example.com </a></li>
+          <li><a href="https://example.com"> Абсолютная на главную сайта example.com в протоколе https </a></li>
+          <li><a href="ftp://ftp.rasla.ru/Pictures/wp_land.jpg"> Ссылка на файл на сервере FTP без авторизации</a></li>
+          <li><a href="ftp://softovichek.ru/16425246.text"> Ссылка на файл на сервере FTP с авторизацией</a></li>
+          <li><a href="http://ochprosto.com/sdelat-ssylku-na-opredelennuyu-chast-stranicy#top">Ссылка на фрагмент страницы некоторого сайта</a></li>
+          <li><a href="#yakor">Cсылка на фрагмент текущей страницы </a></li>
+          <li><a href="https://yandex.ru/search/?lr=35&text=BBC"> Ссылка с двумя параметрами URL</a></li>
+          <li> Навигация по яндекс маркету
+          <ul>
+		<li><a href=https://market.yandex.ru/catalog--elektronika/54440 title="Электроника" target="_blank">Ссылка1</a></li>
+		<li><a href=https://market.yandex.ru/catalog--bytovaia-tekhnika/54419 title="Бытовая техника" target="_blank">Ссылка2</a></li>
+		<li><a href=https://market.yandex.ru/catalog--kompiuternaia-tekhnika/54425 title="Компьютеры" target="_blank">Ссылка3</a></li>
+          </ul>
+	  </li>
+          <li><a>Ссылка без href </a></li>
+          <li><a href=""> Ссылка с пустым href </a></li>
+          <li><a href="https://example.com" rel="nofollow">Ссылка, по которой запрещен переход поисковиками</a></li>
+          <li><a href="https://example.com"> <!--noindex-->Сслыка, запрещенаня для индексации поисковиками <!--noindex--></a></li>
+          <li><a id="metka" href="https://kubsu.ru/ru">Ссылка</a></li>
+          <li><a href="https://www.twitch.tv"><img src="https://img1.freepng.ru/20180320/xlw/kisspng-amazon-com-twitch-logo-streaming-media-video-on-de-icon-svg-twitch-5ab1919601db75.8691295615215865820076.jpg" alt="Twitch" width="300" height="200"></a></li>
+          <li><img src="https://img1.freepng.ru/20180320/xlw/kisspng-amazon-com-twitch-logo-streaming-media-video-on-de-icon-svg-twitch-5ab1919601db75.8691295615215865820076.jpg" alt="KUBSU" width="300" height="200" usemap="#Twitch">
+              <map name="Twitch">
+              <area shape="circle" coords="50,50,50" href="https://www.twitch.tv" alt="Twitch">
+              <area shape="rect" coords="111,50,150,130" href="https://www.twitch.tv" alt="Twitch">
+              <area shape="circle" coords="111,77,80" href="https://www.twitch.tv" alt="Twitch">
+              <area shape="rect" coords="55,55,140,99" href="https://www.twitch.tv" alt="Twitch">
+              </map>
+          </li>
+          <li><a href="./rus.txt">Относительная ссылка на страницу в текущем каталоге</a></li>
+          <li><a href="./about/abc.txt">Относительная ссылка на страницу в каталоге about</a></li>
+          <li><a href="../photos.jpg">Относительная ссылка на страницу в каталоге уровнем выше текущего</a></li>
+          <li><a href="../../media.mp4">Относительная ссылка на страницу в каталоге двумя уровнями выше</a></li>
+          <li><a href="/">Ссылка, сокращенная на главную</a></li>
+          <li><a href="/main">Ссылка, сокращенная на внутреннюю</a></li>
+      </ol>
+    </div>
+    <div>
+      <table>
+        <tr>
+          <th>Заголовок 1</th>
+          <th>Заголовок 2</th>
+          <th>Заголовок 3</th>
+        </tr>
+        <tr>
+          <td>1.1</td>
+          <td>1.2</td>
+          <td rowspan="2">Строка 1,2</td>
+        </tr>
+        <tr>
+          <td>2.1</td>
+          <td>2.2</td>
+        </tr>
+        <tr>
+          <td colspan="2">Столбец 1,2</td>
+          <td>2.5</td>
+        </tr>
+        <tr>
+          <td>4.1</td>
+          <td>4.2</td>
+          <td>4.3</td>
+        </tr>
+        <tr>
+          <td>5.1</td>
+          <td>5.2</td>
+          <td>5.3</td>
+        </tr>
+      </table>
+    </div>
+      <br>
+      <form id="yakor">
+          <label>Имя:
+          <br>
+          <input type="text" placeholder="Введите свое имя">
+          </label>
+          <br>
+          <label>e-mail:
+          <br>
+          <input type="email" placeholder="example@yandex.ru">
+          </label>
+          <br>
+          <label>Дата рождения:
+          <br>
+          <input type="date" value="2021-09-22">
+          </label>
+          <br>
+          Пол:
+          <br>
+          <label>
+          <input type="radio" name="m or fem">
+          Мужской
+          </label>
+          <label>
+          <input type="radio" name="m or fem">
+          Женский
+          </label>
+          <br>
+          Количество конечностей:
+          <br>
+          <label>
+          <label>
+          <input type="radio" name="konechnosti">
+          1
+          </label>
+          <label>
+          <input type="radio" name="konechnosti">
+          2
+          </label>
+          <label>
+          <input type="radio" name="konechnosti">
+          3
+          </label>
+          <br>
+          <label>Сверхспособности:
+          <br>
+          <select multiple="multiple">
+              <option>Бессмертие</option>
+              <option>Прохождение сквозь стены</option>
+              <option>Левитация</option>
+          </select>
+          </label>
+          <br>
+          <label>Биография:
+          <br>
+          <textarea placeholder="Обо мне: "></textarea>
+          </label>
+          <br>
+          <label>
+          <input type="checkbox">
+          С контрактом ознакомлен
+          </label>
+          <br>
+          <input type="button" value="Отправить">
+      </form>
+     <footer>
+       (с) Красношеин Даниил 2021
+     </footer>
+  </body>
+</html>
