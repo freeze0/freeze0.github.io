@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+
+<html>
+
+  <head>
+    <title> Домашнее задание </title>
+  </head>
+
+	<body>
+	<h1>Список:</h1>
+	<ol>
+		<li><a href="example.html" target="_blank">Главная сайта</a></li> 
+		<li><a href="https://example.com/" target="_blank">Гиперссылка</a></li>
+		<li>Ссылка на файл на сервере FTP<a href="ftp://example.com/myfile.zip"> без авторизации</a></li>
+		<li>Ссылка на файл на сервере FTP<a href="ftp://user:password@example.com/myfile.zip">С авторизацией</a></li>
+		<li><a href="https://yandex.ru#news" target="_blank">Ссылка1</a></li>
+		<li><a href="#Форма">Ссылка2</a></li>
+		<li><a href="https://www.onlinestor.com?product=socks&color=black" target="_blank">Ссылка с URL параметрами</a></li>
+		<li><a href=""></a>
+			<ul>
+			<li><a href=https://market.yandex.ru/catalog--elektronika/54440 title="Электроника" target="_blank">Ссылка1</a></li>
+			<li><a href=https://market.yandex.ru/catalog--bytovaia-tekhnika/54419 title="Бытовая техника" target="_blank">Ссылка2</a></li>
+			<li><a href=https://market.yandex.ru/catalog--kompiuternaia-tekhnika/54425 title="Компьютеры" target="_blank">Ссылка3</a></li>
+			</ul>
+		</li>
+		<li><a>Ссылка без href</a></li>
+		<li><a href="">ССылка с пустым href</a></li>
+		<li><a href="http://example.ru" rel="nofollow"> Ссылка, по которой запрещен переход поисковикам </a></li>
+		<li><noindex--><a href="http://example.ru"> Ссылка, запрещенная для индексации поисковиками </a></noindex--></li>
+		<li><a id="metka" href="https://kubsu.ru/ru">Ссылка</a></li>
+		<li><p><a href="sample.html"><img src="image.jpg" alt="Цветок" style="width: 600px;"></a></p></li>
+		<li><a href="sample.html"><img src = "image.jpg" alt="Цветок" style="width: 600px;" usemap = "#map">
+		<map name = "map">
+		<area shape = "rect" href = "ссылочка" coords = "20 20 120 120"/>
+		<area shape = "circle" href = "ссылочка" coords = "180 70 40"/>
+		</map></a></li>
+		<li><a href="Ссылаемый документ.html">Ссылка1</a></li>
+		<li><a href="about/Ссылаемый документ2.html">Ссылка2</a></li>
+		<li><a href="../Ссылаемый документ3.html">Ссылка3</a></li>
+		<li><a href="../../Ссылаемый документ4.html">Ссылка</a></li>
+		<li><a href="/">Сокращенная ссылка на главную</a></li>
+		<li><a href="/example.html">Сокращенная ссылка на внутреннюю</a></li>
+	</ol>
+
+    <h1>Форма</h1>
+
+    <form action="/"
+      method="POST">
+
+      <label>
+        Введите имя:<br />
+        <input name="field-name-1"
+          value="Имя" />
+      </label><br />
+
+      <label>
+       Введите email:<br />
+        <input name="field-email"
+          value="123asd@mail.com"
+          type="email" />
+      </label><br />
+
+      <label>
+        Введите дату рождение:<br />
+        <input name="field-date"
+          value="2021-09-12"
+          type="date" />
+      </label><br />
+
+	Пол:<br />
+      <label><input type="radio" checked="checked"
+        name="radio-group-1" value="Значение1" />
+        Женский </label>
+      <label><input type="radio"
+        name="radio-group-1" value="Значение2" />
+        Мужской </label><br />
+	
+	Количество конечностей:<br />
+      <label><input type="radio" checked="checked"
+        name="radio-group-2" value="Значение1" />
+        2 Конечности </label>
+      <label><input type="radio"
+        name="radio-group-2" value="Значение2" />
+        3 Конечности </label><br />
+      <label><input type = "radio"
+	name="radio-group-2" value="Значение3" />
+	4 конечности </label><br />
+
+      <label>
+        Сверхспособности:
+        <br />
+        <select name="field-name-4[]"
+          multiple="multiple">
+          <option value="Значение1" selected="selected">бессмертие</option>
+          <option value="Значение2" selected="selected">прохождение сквозь стены</option>
+          <option value="Значение3" selected="selected">левитация</option>
+        </select>
+      </label><br />
+
+	<label>
+       биография:<br>
+        <textarea name="field-name-2">информация о себе</textarea>
+      </label>
+
+      С контрактом ознакомлен:<br/>
+      <label><input type="checkbox" checked="checked"
+        name="check-1" />
+        Ознакомлен </label><br/>
+
+      Отправить форму:
+      <input type="submit" value="Отправить" />
+    </form>
+
+  </body>
+
+</html>
