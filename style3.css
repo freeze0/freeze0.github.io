@@ -1,0 +1,183 @@
+body {
+    background-color: #1E90FF;
+    margin: 0;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #0000FF;
+    width: 100%;
+    height: auto;
+    padding: 0;
+    margin: 0;
+}
+
+#logo {
+    width: 70px;
+    height: 70px;
+    padding: 5px;
+    float: left;
+}
+
+img {
+    width: 60%;
+    height: 40%;
+}
+
+
+header div {
+    margin: 0 auto;
+    width: 100%;
+    min-height: 80px;
+    background-color: #808A8B;
+    font-size: 15px;
+}
+
+header h1 {
+    position: relative;
+    margin: 0;
+    text-align: center;
+}
+
+nav {
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+nav a {
+    display: inline-block;
+    background-color: #1E90FF;
+    width: 100%;
+    padding: 10px 0;
+    font-size: 20px;
+    border: 0.5px solid black;
+    color: black;
+}
+
+main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.links, .main-table, .main-form {
+    background-color: #CBDADB;
+    width: 100%;
+    min-height: 300px;
+    margin: auto auto 20px auto;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.links {
+    text-align: left;
+    order: 0;
+}
+
+.main-table {
+    order: 2;
+}
+
+table {
+    border-collapse: collapse;
+    width: 90%;
+    margin: auto;
+}
+
+th {
+    border: 1px solid black;
+    padding: 5px;
+}
+
+td {
+    border: 1px solid black;
+    padding: 5px;
+}
+
+tr:nth-child(2n) {
+    background-color: #1E90FF ;
+}
+
+.fields {
+    border: 2px solid black;
+    width: 60%;
+    padding: 15px;
+    margin: 0 auto;
+    line-height: 150%;
+    order: 1;
+}
+
+input[type="text"], input[type="email"], select, textarea, input[type="date"] {
+    width: 60%;
+}
+
+footer {
+    background-color: #0000FF;
+    width: 100%;
+    padding: 30px 0;
+    text-align: center;
+}
+
+@media screen and (min-width: 800px) {
+    
+    #logo {
+        width: 90px;
+        height: 90px
+    }
+    
+    header div {
+        margin: 0 auto;
+        min-height: 100px;
+        width: 960px;
+    }
+
+    header h1 {
+        padding: 35px;
+    }
+
+    header h1 {
+        font-size: 30px;
+    }
+
+    nav a {
+        font-size: 30px;
+        width: 315px;
+    }
+
+    nav a:hover {
+        background-color: #9DA9AA;
+        font-size: 35px;
+    }
+
+    table td , table th {
+        padding: 20px;
+    }
+
+    .links, .main-table, .main-form {
+        margin: 5px auto;
+        width: 960px;
+    }
+
+    .links {
+        order: 0;
+    }
+
+    .main-table {
+        order: 0;
+    }
+
+    .main-form {
+        order: 0;
+    }
+}
