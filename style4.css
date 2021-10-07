@@ -1,0 +1,61 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+}
+
+body {
+    background-color: #EBF5FB;
+}
+
+header {
+    background-color: #BDDADD;
+    height: 100px;
+}
+
+header div {
+    background-color: gray;
+    height: 100px;
+}
+
+header h1 {
+    font-size: 20px;
+}
+
+.logo1 {
+    width: 90px;
+    height: 90px;
+}
+
+.ss3 {
+    background-color: #CBDADB;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+th, td {
+    border: 1px solid black;
+}
+
+div a {
+    text-decoration: none;
+    color: black;
+}
+
+tr:nth-child(2n) {
+    background-color: #CDFBFF ;
+}
+
+footer {
+    background-color: #BDDADD;
+    height: 90px;
+    font-size: 20px;
+}
+
+@media screen and (min-width: 800px) {
+    header h1 {
+        font-size: 30px;
+    }
+}
