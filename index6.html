@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset = "UTF-8">
+    <title>krasnoshein</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="style6.css">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-5"> <a href = "index.html"> <img src="loggo.png" class="img-fluid" id="graficlogo" alt="Logo"> </a> </div>
+                <div class="col-lg-7 justify-content mt-4 text-left">
+                    <p>Красношеин WEB</p>
+                </div>
+            </div>
+        </div>
+    </header>
+    <nav> <div class="row" id="topnav">
+            <div class="col-12 col-lg-2 text-center">  <a href="https://lenta.ru/">ГЛАВНАЯ</a></div>
+            <div class="col-12 col-lg-2 text-center">  <a href="https://lenta.ru/rubrics/ussr/">О СССР</a></div>
+            <div class="col-12 col-lg-2 text-center">  <a href="https://lenta.ru/rubrics/media/">Медиа</a></div>
+            <div class="col-12 col-lg-2 text-center">  <a href="https://lenta.ru/rubrics/travel/">Путешествия</a></div>
+            <div class="col-12 col-lg-2 text-center">  <a href="https://lenta.ru/rubrics/russia/">Россия</a></div>
+            <div class="col-12 col-lg-2 text-center">  <a href="https://lenta.ru/parts/video/">Видео</a></div>
+        </div>
+    </div>
+    </nav>
+    <main>
+        <div class="container mt-2">
+            <h2 class="col text-center">Гиперссылки</h2>
+            <div class="row" id="my_link">   
+                <ol>
+                     <li><a href="http://example.com"> Абсолютная гиперссылка на главную страницу example.com </a></li>
+          <li><a href="https://example.com"> Абсолютная на главную сайта example.com в протоколе https </a></li>
+          <li><a href="ftp://ftp.rasla.ru/Pictures/wp_land.jpg"> Ссылка на файл на сервере FTP без авторизации</a></li>
+          <li><a href="ftp://softovichek.ru/16425246.text"> Ссылка на файл на сервере FTP с авторизацией</a></li>
+          <li><a href="http://ochprosto.com/sdelat-ssylku-na-opredelennuyu-chast-stranicy#top">Ссылка на фрагмент страницы некоторого сайта</a></li>
+          <li><a href="#yakor">Cсылка на фрагмент текущей страницы </a></li>
+          <li><a href="https://yandex.ru/search/?lr=35&text=lenta"> Ссылка с двумя параметрами URL на сайт Lenta </a></li>
+          <li> Список ссылок основной навигации на сайт Lenta
+          <ol>
+              <li><a href="https://lenta.ru/" title = "Главная" >Главная </a> </li>
+              <li><a href="https://lenta.ru/rubrics/ussr/" title="О СССР">СССР</a></li>
+              <li><a href="https://lenta.ru/rubrics/media/" title="Медиа">Медиа</a></li>
+              <li><a href="https://lenta.ru/rubrics/travel/" title="Путешествия">Путешествия </a> </li>
+              <li><a href="https://lenta.ru/rubrics/russia/" title="Россия сегодня">Россия </a> </li>
+              <li><a href="https://lenta.ru/parts/video/" title="Видео">Видео </a> </li>
+          </ol></li>
+          <li><a>Ссылка без href </a></li>
+          <li><a href=""> Ссылка с пустым href </a></li>
+          <li><a href="https://example.com" rel="nofollow">Ссылка, по которой запрещен переход поисковиками</a></li>
+          <li><a href="https://example.com"> <!--noindex-->Сслыка, запрещенаня для индексации поисковиками <!--noindex--></a></li>
+          <li><p>В США заявили о готовности обсудить возвращение к ядерной сделке с Ираном <b href="https://lenta.ru/news/2021/09/20/nuclearpower/">Подробнее</b></p></li>
+          <li><a href="https://lenta.ru/"><img src="Lenta_лого.png" alt="Lenta" width="275" height="100"></a></li>
+          <li><img src="Lenta_лого.png" alt="Lenta" width="275" height="100" usemap="#BBC">
+              <map name="BBC">
+              <area shape="circle" coords="50,50,50" href="https://lenta.ru/" alt="BBC">
+              <area shape="rect" coords="111,50,150,130" href="https://lenta.ru/" alt="BBC">
+              <area shape="circle" coords="111,77,80" href="https://lenta.ru/" alt="BBC">
+              <area shape="rect" coords="55,55,140,99" href="https://lenta.ru/" alt="BBC">
+              </map>
+          </li>
+          <li><a href="./russian.txt">Относительная ссылка на страницу в текущем каталоге</a></li>
+          <li><a href="./about/in-depth.txt">Относительная ссылка на страницу в каталоге about</a></li>
+          <li><a href="../features.jpg">Относительная ссылка на страницу в каталоге уровнем выше текущего</a></li>
+          <li><a href="../../media.mp4">Относительная ссылка на страницу в каталоге двумя уровнями выше</a></li>
+          <li><a href="/">Ссылка, сокращенная на главную</a></li>
+          <li><a href="/main">Ссылка, сокращенная на внутреннюю</a></li>
+                  </ol>
+            </div>
+        </div>
+        <div class="container mt-2">
+                <div class ="row">
+                   
+                    <div class="col-sm-12 col-lg-12 order-2 order-sm-2 order-lg-1 mt-3 text-center"> 
+                        <h2 class="col text-center">Таблица</h2>
+                        <table>
+                            <tr>
+                              <th>Заголовок 1</th>
+                              <th>Заголовок 2</th>
+                              <th>Заголовок 3</th>
+                            </tr>
+                            <tr>
+                              <td>1.1</td>
+                              <td>1.2</td>
+                              <td rowspan="2">Строка 1,2</td>
+                            </tr>
+                            <tr>
+                              <td>2.1</td>
+                              <td>2.2</td>
+                            </tr>
+                            <tr>
+                              <td colspan="2">Столбец 1,2</td>
+                              <td>2.5</td>
+                            </tr>
+                            <tr>
+                              <td>4.1</td>
+                              <td>4.2</td>
+                              <td>4.3</td>
+                            </tr>
+                            <tr>
+                              <td>5.1</td>
+                              <td>5.2</td>
+                              <td>5.3</td>
+                            </tr>
+                          </table>
+                    </div>
+                    
+                     <div class="col-sm-12 col-lg-12 order-1 order-sm-1 order-lg-2 text-center mt-3">
+                        <h2 class="col text-center">Форма</h2>
+                        <form id="yakor">
+                            <label>Имя:
+                              <br>
+                              <input type="text" placeholder="Введите свое имя">
+                            </label>
+                            <br>
+                            <label>e-mail:
+                            <br>
+                            <input type="email" placeholder="example@yandex.ru">
+                            </label>
+                            <br>
+                            <label>Дата рождения:
+                            <br>
+                            <input type="date" value="2001-05-18">
+                            </label>
+                            <br>
+                            Пол:
+                            <br>
+                            <label>
+                            <input type="radio" name="m or fem">
+                            Мужской
+                            </label>
+                            <label>
+                            <input type="radio" name="m or fem">
+                            Женский
+                            </label>
+                            <br>
+                            Количество конечностей:
+                            <br>
+                            <label>
+                            <input type="radio" name="konechnosti">
+                            0
+                            </label>
+                            <label>
+                            <input type="radio" name="konechnosti">
+                            1
+                            </label>
+                            <label>
+                            <input type="radio" name="konechnosti">
+                            2
+                            </label>
+                            <label>
+                            <input type="radio" name="konechnosti">
+                            3
+                            </label>
+                            <label>
+                            <input type="radio" name="konechnosti">
+                            4
+                            </label>
+                            <br>
+                            <label>Сверхспособности:
+                            <br>
+                            <select multiple="multiple">
+                                <option>Бессмертие</option>
+                                <option>Прохождение сквозь стены</option>
+                                <option>Левитация</option>
+                            </select>
+                            </label>
+                            <br>
+                            <label>Биография:
+                            <br>
+                            <textarea placeholder="Обо мне: "></textarea>
+                            </label>
+                            <br>
+                            <label>
+                            <input type="checkbox">
+                            С контрактом ознакомлен
+                            </label>
+                            <br>
+                            <input type="button" value="Отправить">
+                          </form>
+                     </div>
+                </div>
+            
+
+        </div>
+        
+    </main>
+    
+    <div class="container mt-4 mainBorder order-3 order-sm-3 order-md3 py-md-5 px-md-5 text-center">
+      <h2 class="col text-center">Калькулятор</h2>
+      <form class="calc">
+        <div class="form-row"> 
+          <div class="col-md-2"></div>
+          <div class=" col-sm-12 col-md-4 mt-sm-3 mt-md-auto">
+          <label class="mt-3" id="inputPrice" >Цена</label>
+          <input class="form-control" onkeyup="checkParams()" id="price" type="text" name="field-name" placeholder="Введите цену товара:" autocomplete="off" >
+          </div>
+          <div class="col-sm-12 col-md-4 ">
+          <label class="mt-3" id="inputCount" >Количество</label>
+          <input class="form-control" onkeyup="checkParams()" id="n" type="text" name="field-name" placeholder="Введите кол-во товаров:" autocomplete="off" >
+          </div>
+        </div>
+        <div class="container col-9 mt-4">
+          <button class="form-control btn active" type="button" id="submit" onclick="calc()">Посчитать</button>
+          <div class="container row mt-2"> 
+            <div class="col-5"></div>
+            <h2 class="resultCalc">Результат: </h2>
+            <h2 class="resultCalc" id="result"> 0</h2>
+          </div>
+        </div>
+       </form> 
+      </div>
+
+      <div class="container mb-3 text-center" id="hard_calc">
+        <label>
+            Количество квадратных метров:
+            <br/>
+            <input id="quantity" type="text" name="quantity-name" placeholder="Введите количество товаров">
+        </label>
+        <br />
+        <div id="prodPrice">Выберите тип</div>
+            Тип товара:
+            <form id="new_form">
+            <select name="prodType" >
+                <option value="1">Квартира за городом</option>
+                <option value="2">Квартира в городе</option>
+                <option value="3">Квартира в центре</option>
+            </select>
+            <div id="radios">
+                <label><input type="radio" name="prodOptions" value="option1">125куб.м</label>
+                <label><input type="radio" name="prodOptions" value="option2">250куб.м</label>
+                <label><input type="radio" name="prodOptions" value="option3">600куб.м</label>
+            </div>
+            <div id="checkboxes">
+                <label><input type="checkbox" name="prop1">Мебель</label>
+                <label><input type="checkbox" name="prop2">Кухня</label>
+            </div>
+        </form>
+    </div>
+
+    <footer>
+    <div class="container-fluid mt-3">
+        <div class="row" id="my_footer">
+            <div class="col mt-3 justify-content text-center">
+                <p>Krasnoshein</p>
+            </div>
+        </div>
+    </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <script src="calc1.js"></script>
+    <script src="calc2.js"></script>
+</body>
+</html>
