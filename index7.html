@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset = "UTF-8">
+    <title>Krasnoshein</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="slick.css">
+    <link rel="stylesheet" href="slick-theme.css">
+    <link rel="stylesheet" href="style7.css">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-5"> <a href = "index.html"> <img src="loggo.png" class="img-fluid" id="graficlogo"  alt="Logo"> </a> </div>
+                <div class="col-lg-7 justify-content mt-5 text-left">
+                    <p>Красношеин WEB</p>
+                </div>
+            </div>
+        </div>
+    </header>
+    <nav>
+     <div class="container">
+        <div class="row" id="topnav">
+            <div class="col-12 col-lg-2 text-center"> <a href="https://lenta.ru/">ГЛАВНАЯ</a></div>
+            <div class="col-12 col-lg-2 text-center">  <a href="https://lenta.ru/rubrics/ussr/">О СССР</a> </div>
+            <div class="col-12 col-lg-2 text-center">     <a href="https://lenta.ru/rubrics/media/">Медиа</a>         </div>
+            <div class="col-12 col-lg-2 text-center">  <a href="https://lenta.ru/rubrics/travel/">Путешествия</a> </div>
+            <div class="col-12 col-lg-2 text-center">  <a href="https://lenta.ru/rubrics/russia/">Россия</a> </div>
+            <div class="col-12 col-lg-2 text-center">   <a href="https://lenta.ru/parts/video/">Видео</a></div>
+        </div>
+    </div>
+    </nav>
+    <main>
+        <div class="container mt-2">
+            <h2 class="col text-center">Гиперссылки</h2>
+            <div class="row" id="my_link">   
+                <ol>
+                     <li><a href="http://example.com"> Абсолютная гиперссылка на главную страницу example.com </a></li>
+          <li><a href="https://example.com"> Абсолютная на главную сайта example.com в протоколе https </a></li>
+          <li><a href="ftp://ftp.rasla.ru/Pictures/wp_land.jpg"> Ссылка на файл на сервере FTP без авторизации</a></li>
+          <li><a href="ftp://softovichek.ru/16425246.text"> Ссылка на файл на сервере FTP с авторизацией</a></li>
+          <li><a href="http://ochprosto.com/sdelat-ssylku-na-opredelennuyu-chast-stranicy#top">Ссылка на фрагмент страницы некоторого сайта</a></li>
+          <li><a href="#yakor">Cсылка на фрагмент текущей страницы </a></li>
+          <li><a href="https://yandex.ru/search/?lr=35&text=lenta"> Ссылка с двумя параметрами URL на сайт Lenta </a></li>
+          <li> Список ссылок основной навигации на сайт Lenta
+          <ol>
+              <li><a href="https://lenta.ru/" title = "Главная" >Главная </a> </li>
+              <li><a href="https://lenta.ru/rubrics/ussr/" title="О СССР">СССР</a></li>
+              <li><a href="https://lenta.ru/rubrics/media/" title="Медиа">Медиа</a></li>
+              <li><a href="https://lenta.ru/rubrics/travel/" title="Путешествия">Путешествия </a> </li>
+              <li><a href="https://lenta.ru/rubrics/russia/" title="Россия сегодня">Россия </a> </li>
+              <li><a href="https://lenta.ru/parts/video/" title="Видео">Видео </a> </li>
+          </ol></li>
+          <li><a>Ссылка без href </a></li>
+          <li><a href=""> Ссылка с пустым href </a></li>
+          <li><a href="https://example.com" rel="nofollow">Ссылка, по которой запрещен переход поисковиками</a></li>
+          <li><a href="https://example.com"> <!--noindex-->Сслыка, запрещенаня для индексации поисковиками <!--noindex--></a></li>
+          <li><p>В США заявили о готовности обсудить возвращение к ядерной сделке с Ираном <b href="https://lenta.ru/news/2021/09/20/nuclearpower/">Подробнее</b></p></li>
+          <li><a href="https://lenta.ru/"><img src="Lenta_лого.png" alt="Lenta" width="275" height="100"></a></li>
+          <li><img src="Lenta_лого.png" alt="Lenta" width="275" height="100" usemap="#BBC">
+              <map name="BBC">
+              <area shape="circle" coords="50,50,50" href="https://lenta.ru/" alt="BBC">
+              <area shape="rect" coords="111,50,150,130" href="https://lenta.ru/" alt="BBC">
+              <area shape="circle" coords="111,77,80" href="https://lenta.ru/" alt="BBC">
+              <area shape="rect" coords="55,55,140,99" href="https://lenta.ru/" alt="BBC">
+              </map>
+          </li>
+          <li><a href="./russian.txt">Относительная ссылка на страницу в текущем каталоге</a></li>
+          <li><a href="./about/in-depth.txt">Относительная ссылка на страницу в каталоге about</a></li>
+          <li><a href="../features.jpg">Относительная ссылка на страницу в каталоге уровнем выше текущего</a></li>
+          <li><a href="../../media.mp4">Относительная ссылка на страницу в каталоге двумя уровнями выше</a></li>
+          <li><a href="/">Ссылка, сокращенная на главную</a></li>
+          <li><a href="/main">Ссылка, сокращенная на внутреннюю</a></li>
+                    
+                  </ol>
+            </div>
+        </div>
+    </main>
+<div class="container-slide">
+    <div class="sl">
+        <div class="sl_slide"><img src="1.jpg" class="img-fluid"  alt=""></div>
+        <div class="sl_slide"><img src="2.jpg" class="img-fluid"  alt=""></div>
+        <div class="sl_slide"><img src="3.jpg" class="img-fluid"  alt=""></div>
+        <div class="sl_slide"><img src="4.jpg"  class="img-fluid" alt=""></div>
+        <div class="sl_slide"><img src="5.jpg" class="img-fluid"  alt=""></div>
+        <div class="sl_slide"><img src="6.jpg" class="img-fluid" alt=""></div>
+        <div class="sl_slide"><img src="7.jpg"  class="img-fluid" alt=""></div>
+        <div class="sl_slide"><img src="8.jpg" class="img-fluid" alt=""></div>
+        <div class="sl_slide"><img src="9.jpg" class="img-fluid" alt=""></div>
+        <div class="sl_slide"><img src="10.jpg" class="img-fluid"  alt=""></div>
+        <div class="sl_slide"><img src="11.jpg" class="img-fluid"  alt=""></div>
+        <div class="sl_slide"><img src="12.jpg" class="img-fluid"  alt=""></div>
+        <div class="sl_slide"><img src="13.jpg" class="img-fluid"  alt=""></div>
+        <div class="sl_slide"><img src="14.jpg" class="img-fluid" alt=""></div>
+        <div class="sl_slide"><img src="15.jpg" class="img-fluid"  alt=""></div>
+        <div class="sl_slide"><img src="16.jpg" class="img-fluid"  alt=""></div>
+    </div>
+</div>
+    
+    <footer>
+    <div class="container-fluid mt-3">
+        <div class="row" id="my_footer">
+            <div class="col mt-3 justify-content text-center">
+                <p>KRASNOSHEIN</p>
+            </div>
+        </div>
+    </div>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <script src="slick.min.js"></script>
+    <script src="slides.js"></script>
+</body>
+</html>
