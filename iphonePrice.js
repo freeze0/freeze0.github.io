@@ -69,7 +69,7 @@ function updatePrice() {
   });
 
   var inputPrice = document.getElementById('prodPrice');
-  inputPrice.innerHTML = price + ' πσαλει';
+  inputPrice.innerHTML = price + " Ρ€ΡƒΠ±Π»ΠµΠΉ ";
 }
 
 window.addEventListener('DOMContentLoaded', function (event) {
