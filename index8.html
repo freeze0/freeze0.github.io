@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>k.rogachev web8</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <link rel="stylesheet" href="style8.css" />
+    <script defer src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script defer src="form8.js"></script>
+  </head>
+  <body class="main">
+    <h1 class="title">Form</h1>
+    <button class="openBtn">Нажмите</button>
+    <div class="hiddenDiv" id="hiddenDiv">
+      <div class="formDiv">
+        <form id="form" action="https://api.slapform.com/rogachoff.kosten@yandex.ru" method="POST">
+          <h2 class="titleOfForm">Форма</h2>
+          <label for="name">
+            Name:
+            <input name="name" id="name" placeholder="Введите имя..." required />
+          </label>
+          <br />
+          <label for="email">
+            Email:
+            <input type="email" id="email" name="email" placeholder="test@example.com" required />
+          </label>
+          <br />
+          <label for="message">
+            Message:<br />
+            <textarea id="message" name="message" placeholder="Сообщение..." required></textarea>
+          </label>
+          <br />
+          <label for="checkbox">
+            Согласен(-на) на обработку персональных данных
+            <input type="checkbox" id="checkbox" name="checkbox" />
+          </label>
+          <br />
+          <input type="submit" id="sendBtn" name="sendBtn" value="Отправить" disabled />
+        </form>
+        <button class="closeBtn">Закрыть</button>
+      </div>
+    </div>
+    <div class="hiddenResponse">
+      <div class="resForm">
+        <p class="ans"></p>
+        <button class="close" id="cl">Close</button>
+      </div>
+    </div>
+  </body>
+</html>
